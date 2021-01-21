@@ -40,10 +40,10 @@ ReactDOM.render(
           <Route path="/newArrival" component={NewArrival} />
           <Route path="/customYou" component={Custom} />
           <Route path="/selectProduct/:id" component={SelectedProduct} />
-          <Route path="/cart" component={Cart} />
-          <Route path="/checkOut" component={CheckOut} />
           <Route path="/confirmation" component={Confirmation} />
         </BaseLayout>
+          <Route path="/cart" component={Cart} />
+          <Route path="/checkOut" component={CheckOut} />
       </DataProvider>
     </Switch>
   </Router>,
