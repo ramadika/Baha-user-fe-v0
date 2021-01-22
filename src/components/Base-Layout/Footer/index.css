@@ -1,13 +1,13 @@
 .footer {
   font-family: "Quicksand", sans-serif;
   position: fixed;
-  bottom: 3px;
+  bottom: 0px;
   width: 100%;
-  margin-top: 12%;
+  margin-top: 12px;
   font-size: 8pt;
   color: #dadada;
   text-align: center;
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
 }
 
 .footer a {

@@ -1,13 +1,61 @@
-.home .img-fluid {
-  display: block;
+.home {
+  background-image: 
+    linear-gradient(grey, black),
+    url(/src/assets/images/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: 50% 40%;
+  background-blend-mode: multiply;
   margin-left: auto;
   margin-right: auto;
-  max-width: 50%;
+  padding-bottom: 11.8%;
 }
 
 .home h2 {
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
   padding: 15px;
+  padding-bottom: 0px;
+  text-align: center;
   font-family: "Raleway", sans-serif;
-  font-size: 28px;
-  background-color: #f8f9fa;
+  font-size: 48px;
+  color: #f5f6fa;
+}
+
+.home h6 {
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 8pt;
+  color: #dcdde1;
+}
+
+.home a {
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 8.5%;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #e84118;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 3px solid #e84118;
+}
+
+.home a:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #be3512;
+  border: 3px solid #be3512;
 }
