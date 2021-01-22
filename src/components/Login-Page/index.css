@@ -48,11 +48,11 @@
 .login a {
   font-size: 18px;
   font-weight: bolder;
-  color: #e84118;
+  color: #00a8ff;
 }
 
 .login a:hover {
   transition: 0.3s;
   text-decoration: none;
-  color: #be3512;
+  color: #027dbb;
 }

@@ -8,8 +8,8 @@ import 'components/Base-Layout/Header/index.css'
 export default function index() {
     return (
         <div>
-            <div className="container mt-4">
-                <div className="header row mt-3">
+            <div className="container">
+                <div className="header row my-3">
                     <div className="col d-flex justify-content-start align-self-center">
                         <NavLink to="/">LOG IN / REGISTER</NavLink>
                     </div>
