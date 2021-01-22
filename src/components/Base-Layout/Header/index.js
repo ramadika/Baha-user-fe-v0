@@ -14,7 +14,7 @@ export default function index() {
                         <NavLink to="/">LOG IN / REGISTER</NavLink>
                     </div>
                     <div className="col">
-                        <h1 className="text-center">Arnawa</h1>
+                        <NavLink to="/home"><h1 className="text-center">Arnawa</h1></NavLink>
                     </div>
                     <div className="col d-flex justify-content-end align-self-center">
                         <NavLink to="/cart"><HiShoppingCart className="cart" size={30}></HiShoppingCart></NavLink>
