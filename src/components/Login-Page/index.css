@@ -1,6 +1,6 @@
 .login {
   margin-top: 8%;
-  padding: 50px;
+  padding: 40px;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
@@ -9,10 +9,22 @@
   font-family: "Raleway", sans-serif;
 }
 
-.login h2 {
+.login h6 {
+  margin-top: -10px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  color: #ced4da;
+}
+
+.login h2 {
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10px;
+}
+
+.login hr {
+  margin-bottom: 10%;
 }
 
 .form-login .form-control {
@@ -39,6 +51,18 @@
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   border: 3px solid #e84118;
+}
+
+.login .aLogin {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #e84118;
+}
+
+.login .aLogin:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #b63211;
 }
 
 .login h4 {
