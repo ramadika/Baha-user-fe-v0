@@ -1,7 +1,12 @@
-.card {
+.team .card {
   border: 0px solid #f5f7f8;
   font-family: "Kanit", sans-serif;
   background-color: #f5f7f8;
+}
+
+.team .card-body {
+  max-height: fit-content;
+  padding: 0rem;
 }
 
 .team .card-img-top {
