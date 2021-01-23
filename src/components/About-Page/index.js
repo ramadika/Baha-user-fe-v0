@@ -33,12 +33,16 @@ export default class index extends Component {
                         <Link to="about#idTeam" className="d-flex justify-content-start">Meet Our Team</Link>
                     </div>
                 </div>
-                <div className="container teams">
+                <div className="container teams text-center">
                     <div className="row my-5" id="idTeam">
                         <div className="col">
                             <h6>Arnawa</h6>
-                            <h3><span>Our Team Leads.</span></h3>
+                            <h3><span><b>Our </b>Team Leads <b>.</b></span></h3>
                         </div>
+                    </div>
+                    <hr />
+                    <div className="row">
+                        <h4>We're are lead by a team who constantly eager to bring the satisfied product and challenged to unlock great creativity</h4>
                     </div>
                     <div className="row">
                         <Team />

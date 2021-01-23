@@ -7,7 +7,7 @@
   background-blend-mode: multiply;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 20%;
+  padding-bottom: 13%;
   font-family: "Raleway", sans-serif;
 }
 
@@ -55,51 +55,36 @@
 }
 
 .teams {
-  font-family: "Raleway", sans-serif;
-  background-color: #f5f7f8;
   margin-left: auto;
   margin-right: auto;
+  padding: 15px;
   padding-top: 20px;
-  padding-bottom: 15px;
+  width: fit-content;
+  border: 1px solid #ced4da;
+  font-family: "Kanit", sans-serif;
 }
 
 .teams h6 {
+  font-family: "Raleway", sans-serif;
   padding-left: 25px;
   color: #ced4da;
   font-size: 12pt;
 }
 
 .teams h3 {
+  margin-bottom: -35px;
   font-size: 32pt;
-  font-weight: bolder;
 }
 
-/* .about-custom {
-  width: 100%;
-  filter: brightness(50%);
+.teams hr {
+  margin-bottom: 35px;
+  width: 20%;
 }
 
-.aboutTxt-custom {
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #ffffff;
-  font-size: 54pt;
-  font-weight: bold;
+.teams h4 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  font-size: 12pt;
+  color: #ced4da;
 }
-
-.abtFst-custom h2 {
-  font-weight: bolder;
-  font-family: "Kanit", sans-serif;
-  margin-left: 200px;
-  font-size: 30pt;
-  color: #ff7979;
-}
-
-.abtFst-custom h6 {
-  font-family: "Kanit", sans-serif;
-  font-family: "Quicksand", sans-serif;
-  color: #818181;
-  line-height: 2;
-} */

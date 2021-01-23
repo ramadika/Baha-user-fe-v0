@@ -1,7 +1,7 @@
 .team .card {
   border: 0px solid #f5f7f8;
   font-family: "Kanit", sans-serif;
-  background-color: #f5f7f8;
+  padding-bottom: -100px;
 }
 
 .team .card-body {
@@ -11,7 +11,7 @@
 
 .team .card-img-top {
   width: 75%;
-  height: 30%;
+  height: 40%;
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
@@ -21,9 +21,12 @@
   border: 0px solid #000000;
 }
 
+.team .card-title {
+  margin-top: 15px;
+}
+
 .team .card-text {
-  color: rgb(201, 201, 201);
-  margin-bottom: 0px;
+  margin-bottom: -100%;
   margin-top: -10px;
-  font-family: "Kanit", sans-serif;
+  color: #ced4da;
 }
