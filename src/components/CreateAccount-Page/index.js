@@ -42,7 +42,7 @@ export default class index extends Component {
                         <input type="text" value="" id="phoneNumber" className= "col form-control text-center"></input>
                     </div>
                     {/* <button type="submit" className="btn">Create Account</button> */}
-                    <button type="submit" className="btn"><NavLink to="/" className="aCreate">Create Account</NavLink></button>
+                    <button type="submit" className="btn"><NavLink to="/login" className="aCreate">Create Account</NavLink></button>
                 </form>
                 <NavLink to="/shop"><IoMdArrowRoundBack />Back to Shopping</NavLink>
             </div>

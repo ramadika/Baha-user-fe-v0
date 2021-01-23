@@ -11,10 +11,10 @@ export default function index() {
             <div className="container">
                 <div className="header row my-3">
                     <div className="col d-flex justify-content-start align-self-center">
-                        <NavLink to="/">LOG IN / REGISTER</NavLink>
+                        <NavLink to="/login">LOG IN / REGISTER</NavLink>
                     </div>
                     <div className="col">
-                        <NavLink to="/home"><h1 className="text-center">Arnawa</h1></NavLink>
+                        <NavLink to="/"><h1 className="text-center">Arnawa</h1></NavLink>
                     </div>
                     <div className="col d-flex justify-content-end align-self-center">
                         <NavLink to="/cart"><HiShoppingCart className="cart" size={30}></HiShoppingCart></NavLink>

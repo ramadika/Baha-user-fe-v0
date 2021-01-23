@@ -28,9 +28,9 @@ ReactDOM.render(
   <Router>
     <Switch>
       <DataProvider>
-        <Route exact path="/" component={Login}/>
+        <Route exact path="/" component={Home} />
+        <Route path="/login" component={Login}/>
         <Route path="/createAccount" component={CreateAccount}/>
-        <Route path="/home" component={Home} />
         <Route path="/cart" component={Cart} />
         <Route path="/checkOut" component={CheckOut} />
         <Route path="/about" component={About} />
