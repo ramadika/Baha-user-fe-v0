@@ -1,0 +1,72 @@
+.contact {
+  margin-top: 20px;
+  padding: 40px;
+  width: fit-content;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 1px solid #ced4da;
+  font-family: "Kanit", sans-serif;
+  color: #343a40;
+}
+
+.contact img {
+  filter: brightness(90%);
+}
+
+.contact h6 {
+  font-family: "Raleway", sans-serif;
+  color: #ced4da;
+  font-size: 12pt;
+}
+
+.contact h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 24pt;
+  color: #e84118;
+}
+
+.contact hr {
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.contact h4 span {
+  display: block;
+}
+
+.icon-contact {
+  margin-top: 20px;
+  color: #e84118;
+}
+
+.contact a {
+  color: #00a8ff;
+}
+
+.contact a:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #027dbb;
+}
+
+/* .infoCont-custom {
+  margin-left: -100px;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 3px;
+}
+
+.tlCont-custom {
+  font-family: "Nunito", sans-serif;
+  letter-spacing: 2px;
+  color: #6d6d6d;
+}
+
+.descCont-custom {
+  color: rgb(199, 199, 199);
+}
+
+.icCont-custom {
+  color: #ff0000;
+} */
