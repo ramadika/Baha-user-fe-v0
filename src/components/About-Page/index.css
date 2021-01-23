@@ -1,0 +1,105 @@
+.about {
+  background-image: linear-gradient(grey, grey),
+    url(/src/assets/images/clark-street-mercantile-P3pI6xzovu0-unsplash-cropped.jpg);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: 50% 40%;
+  background-blend-mode: multiply;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20%;
+  font-family: "Raleway", sans-serif;
+}
+
+.about h2 {
+  margin-top: 20%;
+  font-size: 67px;
+  color: #f5f6fa;
+}
+
+.about h2 span {
+  display: block;
+}
+
+.about h5 {
+  margin-top: 25%;
+  font-size: 11px;
+  color: #dcdde1;
+}
+
+.about h5 span {
+  display: block;
+  line-height: 1.75;
+}
+
+.about a {
+  margin-top: 2%;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 14pt;
+  font-weight: bolder;
+  color: #00a8ff;
+  width: fit-content;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 2px solid #00a8ff;
+}
+
+.about a:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #027dbb;
+  border: 2px solid #027dbb;
+}
+
+.teams {
+  font-family: "Raleway", sans-serif;
+  background-color: #f5f7f8;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.teams h6 {
+  padding-left: 25px;
+  color: #ced4da;
+  font-size: 12pt;
+}
+
+.teams h3 {
+  font-size: 32pt;
+  font-weight: bolder;
+}
+
+/* .about-custom {
+  width: 100%;
+  filter: brightness(50%);
+}
+
+.aboutTxt-custom {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 54pt;
+  font-weight: bold;
+}
+
+.abtFst-custom h2 {
+  font-weight: bolder;
+  font-family: "Kanit", sans-serif;
+  margin-left: 200px;
+  font-size: 30pt;
+  color: #ff7979;
+}
+
+.abtFst-custom h6 {
+  font-family: "Kanit", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  color: #818181;
+  line-height: 2;
+} */
