@@ -16,6 +16,9 @@ export default class index extends Component {
                     <h6 className="text-center">Arnawa</h6>
                     <h2 className="text-center">Checkout</h2>
                     <hr />
+                    <div className="d-flex justify-content-start mb-4">
+                        <NavLink to="/shop">&lt;&lt; Back to Shopping</NavLink>
+                    </div>
                     <div className="row">
                         <div className="col">
                             <div className="row">

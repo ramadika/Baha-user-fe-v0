@@ -1,7 +1,6 @@
 // Dependencies
 import React, { Component } from 'react'
 import { NavLink } from "react-router-dom";
-import { IoMdArrowRoundBack } from 'react-icons/io'
 // Internals
 import 'components/CreateAccount-Page/index.css'
 
@@ -44,7 +43,7 @@ export default class index extends Component {
                     {/* <button type="submit" className="btn">Create Account</button> */}
                     <button type="submit" className="btn"><NavLink to="/login" className="aCreate">Create Account</NavLink></button>
                 </form>
-                <NavLink to="/shop"><IoMdArrowRoundBack />Back to Shopping</NavLink>
+                <NavLink to="/shop">&lt;&lt; Back to Shopping</NavLink>
             </div>
         )
     }
