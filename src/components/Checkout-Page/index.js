@@ -6,8 +6,7 @@ import Summary from 'components/Checkout-Page/Summary'
 import Review from 'components/Checkout-Page/Review'
 // Internals
 import 'components/Checkout-Page/index.css'
-// import imgItem1 from "assets/images/he-s-her-lobster-nKK32qJheBY-unsplash.jpg";
-// import imgItem2 from "assets/images/sirio-HXaMrVsIrVI-unsplash.jpg";
+import imgAds from "assets/images/artem-beliaikin-pPzQP35zh4o-unsplash.jpg";
 
 export default class index extends Component {
     render() {
@@ -38,12 +37,17 @@ export default class index extends Component {
                             <h6 className="ml-3">100 456 8932</h6>
                             <hr />
                         </div>
-                        <div className="col d-flex justify-content-end">
-                            <Review />
+                        <div className="col">
+                            <Summary />
                         </div>
                     </div>
                     <div className="row">
-                        <Summary />
+                        <div className="col">
+                            <Review />
+                        </div>
+                        <div className="col d-flex justify-content-center">
+                            <img src={imgAds} alt="item1" width="auto" height="320"></img>
+                        </div>
                     </div>
                 </div>
                 <Footer />

@@ -5,36 +5,46 @@ import 'components/Checkout-Page/Summary/index.css'
 
 export default class index extends Component {
     render() {
-        return (
-            <div className="summary mt-3">
-              <h5 className="text-left ml-3 mt-3">Order Summary</h5>
-              <table className="container table noBorder-custom">
-                <tr>
-                  <th scope="col">Subtotal</th>
-                  <th scope="col">10000 IDR</th>
-                </tr>
-                <tr>
-                  <th scope="col">Shipping</th>
-                  <th scope="col">10000 IDR</th>
-                </tr>
-                <tr>
-                  <th scope="col">Tax</th>
-                  <th scope="col">10000 IDR</th>
-                </tr>
-              </table>
-              <hr className="hrCheck-custom mx-3"></hr>
-              <table className="container table noBorder-custom orderTotal-custom">
-                <tr className="text-center">
-                  <th scope="col">Order Total</th>
-                  <th scope="col">10000 IDR</th>
-                </tr>
-              </table>
-              <input
-                className="mb-3 btnConf-custom"
-                type="button"
-                value="PLACE ORDER"
-              ></input>
+      return (
+        <div className="summary">
+          <h5>Order Summary</h5>
+          <div className="row">
+            <div className="col ml-3">
+              <h6>Subtotal</h6>
             </div>
-        )
+            <div className="col d-flex justify-content-end">
+              <h6>10000 IDR</h6>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col ml-3">
+              <h6>Shipping</h6>
+            </div>
+            <div className="col d-flex justify-content-end">
+              <h6>10000 IDR</h6>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col ml-3">
+              <h6>Tax</h6>
+            </div>
+            <div className="col d-flex justify-content-end">
+              <h6>10000 IDR</h6>
+            </div>
+          </div>
+          <hr />
+          <div className="row">
+            <div className="col ml-3">
+              <h6>Order Total</h6>
+            </div>
+            <div className="col d-flex justify-content-end">
+              <h6>30000 IDR</h6>
+            </div>
+          </div>
+          <div className="d-flex justify-content-center">
+            <button type="submit" className="btn mb-5">PLACE ORDER</button>
+          </div>
+        </div>
+      )
     }
 }

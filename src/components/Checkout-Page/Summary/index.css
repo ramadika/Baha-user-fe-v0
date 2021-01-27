@@ -1,98 +1,27 @@
 .summary {
   font-family: "Raleway", sans-serif;
-  height: 0; 
 }
 
-.summary table {
-    width: 120%;
+.summary .row h6 {
+  margin-bottom: 5%;
+  color: #b2bec3;
 }
 
-/* .tCheck-custom {
-    font-family: "Fugaz One", cursive;
-  }
-  
-  .hrtCheck-custom {
-    border: 1px solid rgb(218, 218, 218);
-  }
-  
-  .hrCheck-custom {
-    border: 1px solid rgb(0, 0, 0);
-  }
-  
-  .colCheck-custom h3 {
-    font-weight: 500;
-  }
-  
-  .colCheck-custom h5 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 700;
-  }
-  
-  .colCheck-custom h6 {
-    font-family: "Nunito", sans-serif;
-  }
-  
-  .rdCheck-custom {
-    font-family: "Nunito", sans-serif;
-  }
-  
-  .sumOrder-custom {
-    border: 2px solid rgb(218, 218, 218);
-    margin-right: 15px;
-  }
-  
-  .sumOrder-custom h5 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 700;
-  }
-  
-  .sumOrder-custom img {
-    margin-left: 30px;
-  }
-  
-  .noBorder-custom th {
-    border: 0;
-    font-family: "Nunito", sans-serif;
-    font-weight: 300;
-  }
-  
-  .payCheck-custom {
-    color: #b6bdc0;
-  }
-  
-  .orderTotal-custom th {
-    font-weight: bolder;
-  }
-  
-  .colCheck-custom a {
-    color: #3386f3;
-    text-decoration: none;
-    margin-left: 300px;
-  }
-  
-  .colCheck-custom a:hover {
-    color: #214069;
-    text-decoration: none;
-  }
-  
-  .inputShipping-custom > input[type="text"] {
-    width: 400pt;
-    padding: 8px 18px;
-    margin: 13px 0;
-    border-radius: 7px 7px 7px 7px;
-    -moz-border-radius: 7px 7px 7px 7px;
-    -webkit-border-radius: 7px 7px 7px 7px; 
-    border: 1px solid #000000;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  }
-  
-  .odrSum-custom a {
-    text-decoration: none;
-  }
-  
-  .outBorder-custom th {
-    border: 0;
-  }
-   */
+.summary hr {
+  margin-top: 0px;
+}
+
+.summary button {
+  width: 50%;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #e84118;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 3px solid #e84118;
+}
