@@ -1,0 +1,62 @@
+.shipping {
+  padding: 40px;
+  font-family: "Raleway", sans-serif;
+  width: 550px;
+}
+
+.shipping h6 {
+  color: #ced4da;
+}
+
+.shipping h2 {
+  margin-bottom: -10px;
+}
+
+.shipping hr {
+  margin-bottom: 7%;
+}
+
+.form-shipping label {
+  text-align: left;
+  padding-right: 0px;
+  margin-right: -20px;
+}
+
+.form-shipping .form-control {
+  margin-bottom: 5px;
+  padding: 8px 18px;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.form-shipping button {
+  margin-top: 17px;
+  margin-bottom: 10px;
+  width: 40%;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  letter-spacing: 1pt;
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #e84118;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 3px solid #e84118;
+}
+
+.shipping .aEditShip {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #e84118;
+}
+
+.shipping .aEditShip:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #b63211;
+}

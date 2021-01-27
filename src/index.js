@@ -23,6 +23,7 @@ import SelectedProduct from 'components/Shop-Page/ProductSelected'
 import Cart from 'components/Cart-Page'
 import CheckOut from 'components/Checkout-Page'
 import Confirmation from 'components/Confirmation-Page'
+import Shipping from 'components/Checkout-Page/Shipping'
 
 ReactDOM.render(
   <Router>
@@ -41,6 +42,7 @@ ReactDOM.render(
         <Route path="/confirmation" component={Confirmation} />
         <Route path="/shop" component={Shop} />
         <Route path="/sale" component={Sale} />
+        <Route path="/shipping" component={Shipping}/>
       </DataProvider>
     </Switch>
   </Router>,

@@ -23,7 +23,7 @@ export default class index extends Component {
                                     <h5>Shipping Address</h5>
                                 </div>
                                 <div className="col d-flex justify-content-end">
-                                    <NavLink to="/">Edit</NavLink>
+                                    <NavLink to="/shipping">Edit</NavLink>
                                 </div>
                             </div>
                             <h6 className="ml-3">John Newman</h6>
