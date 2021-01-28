@@ -12,10 +12,12 @@ export default class index extends Component {
         return (
             <div>
                 <NavBar />
-                <Header />
-                <Banner />
                 <div className="container shop">
-                    <h2>Shop</h2>
+                    <Header />
+                    <Banner />
+                    <div className="row d-flex justify-content-center mt-3">
+                        <h2>Shop</h2>
+                    </div>
                 </div>
                 <Footer />
             </div>
