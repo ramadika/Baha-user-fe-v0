@@ -1,0 +1,75 @@
+.confirm {
+  font-family: "Raleway", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  padding-top: 20px;
+}
+
+.confirm h6 {
+  color: #ced4da;
+}
+
+.confirm h2 {
+  margin-bottom: -10px;
+}
+
+.confirm hr {
+  margin-bottom: 10px;
+}
+
+.form-confirm label {
+  text-align: left;
+}
+
+.form-confirm .form-control {
+  margin-bottom: 5px;
+  padding: 8px 18px;
+  /* width: 100%; */
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+select.form-control {
+  width: 51%;
+}
+
+.form-confirm button {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: fit-content;
+  letter-spacing: 1pt;
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #e84118;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 3px solid #e84118;
+}
+
+.confirm .aPayment {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #e84118;
+}
+
+.confirm .aPayment:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #b63211;
+}
+
+.confirm .img-confirm {
+  background-image: linear-gradient(grey, grey),
+    url(/src/assets/images/imelda-p-ER1gHMTYY-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: 50% 60%;
+  background-blend-mode: multiply;
+  padding-bottom: 13%;
+}
