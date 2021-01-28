@@ -41,7 +41,7 @@ export default class index extends Component {
                                 <input type="file" value="" id="uploadConfrim" className="col"></input>
                             </div>
                             {/* <button type="submit" className="btn">Confirm Payment</button> */}
-                            <button type="submit" className="btn d-flex justify-content-center"><NavLink to="/login" className="aPayment">Confirm Payment</NavLink></button>
+                            <button type="submit" className="btn d-flex justify-content-center"><NavLink to="/confirmed" className="aPayment">Confirm Payment</NavLink></button>
                         </form>
                     </div>
                     <div className="row img-confirm"></div>
