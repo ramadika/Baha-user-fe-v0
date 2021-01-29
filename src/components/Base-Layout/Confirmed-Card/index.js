@@ -1,7 +1,6 @@
 // Dependencies
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Footer from 'components/Base-Layout/Footer'
 import { TiTickOutline } from 'react-icons/ti'
 // Internals
 import 'components/Base-Layout/Confirmed-Card/index.css'
@@ -9,7 +8,7 @@ import 'components/Base-Layout/Confirmed-Card/index.css'
 export default function f() {
     return (
         <div>
-            <div className="container mb-5">
+            <div className="container">
                 <div className="d-flex justify-content-center confirmed">
                     <h2 className="text-center">
                         <span><TiTickOutline size={150} className="tick-confirmed"/></span>
@@ -21,7 +20,6 @@ export default function f() {
                     </h2>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

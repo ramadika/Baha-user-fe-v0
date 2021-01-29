@@ -25,6 +25,7 @@ import CheckOut from 'components/Checkout-Page'
 import Confirmation from 'components/Confirmation-Page'
 import Shipping from 'components/Checkout-Page/Shipping'
 import Confirmed from 'components/Confirmation-Page/Confirmed'
+import Placed from 'components/Checkout-Page/PlaceOrder'
 
 ReactDOM.render(
   <Router>
@@ -45,6 +46,7 @@ ReactDOM.render(
         <Route path="/sale" component={Sale} />
         <Route path="/shipping" component={Shipping}/>
         <Route path="/confirmed" component={Confirmed}/>
+        <Route path="/placed" component={Placed}/>
       </DataProvider>
     </Switch>
   </Router>,

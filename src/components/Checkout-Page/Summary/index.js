@@ -1,5 +1,6 @@
 // Dependencies
 import React, { Component } from 'react'
+import { NavLink } from "react-router-dom";
 // Internals
 import 'components/Checkout-Page/Summary/index.css'
 
@@ -42,7 +43,8 @@ export default class index extends Component {
             </div>
           </div>
           <div className="d-flex justify-content-center">
-            <button type="submit" className="btn mb-5">PLACE ORDER</button>
+            {/* <button type="submit" className="btn mb-5">PLACE ORDER</button> */}
+            <button type="submit" className="btn mb-5"><NavLink to="/placed" className="aPlace">PLACE ORDER</NavLink></button>
           </div>
         </div>
       )

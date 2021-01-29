@@ -25,3 +25,15 @@
   -webkit-border-radius: 10px 10px 10px 10px;
   border: 3px solid #e84118;
 }
+
+.summary .aPlace {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #e84118;
+}
+
+.summary .aPlace:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #b63211;
+}

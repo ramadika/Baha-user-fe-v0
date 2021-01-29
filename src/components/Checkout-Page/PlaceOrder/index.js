@@ -1,19 +1,23 @@
 // Dependencies
 import React, { Component } from 'react'
+import { NavLink } from "react-router-dom";
+import Placed from 'components/Base-Layout/Confirmed-Card'
 import Footer from 'components/Base-Layout/Footer'
-import Confirmed from 'components/Base-Layout/Confirmed-Card'
 // Internals
-import 'components/Confirmation-Page/Confirmed/index.css'
+import 'components/Checkout-Page/PlaceOrder/index.css'
 // import imgItem1 from "assets/images/he-s-her-lobster-nKK32qJheBY-unsplash.jpg";
-// import imgItem2 from "assets/images/sirio-HXaMrVsIrVI-unsplash.jpg"; 
+// import imgItem2 from "assets/images/sirio-HXaMrVsIrVI-unsplash.jpg";
 
 export default class index extends Component {
     render() {
         return (
             <div>
-                <div className="container mb-5">
-                    <Confirmed />
-                    {/* <div className="d-flex justify-content-center summary-confirmed">
+                <div className="container mb-5 placed">
+                    <Placed />
+                    <div className="row">
+                        <button type="submit" className="btn"><NavLink to="/confirmation" className="aPlaced">Confirm Payment</NavLink></button>
+                    </div>
+                    {/* <div className="d-flex justify-content-center">
                         <div className="row">
                             <div className="col mr-5">
                                 <h4>Order Summary - 17834509</h4>
@@ -40,6 +44,14 @@ export default class index extends Component {
                             </div>
                             <div className="col ml-5">
                                 <h4>Order Details - 17834509</h4>
+
+                                <h5>Delivery Options</h5>
+                                <h6 className="ml-3">Standard Delivery</h6>
+                                <hr />
+
+                                <h5>Order Date</h5>
+                                <h6 className="ml-3">19 May 2021</h6>
+                                <hr />
 
                                 <h5>Contact Detail</h5>
                                 <h6 className="ml-3">JohnNewman@gmail.com</h6>
