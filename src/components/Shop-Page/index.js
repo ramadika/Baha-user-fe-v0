@@ -6,6 +6,7 @@ import CardImg from "react-bootstrap/CardImg";
 import NavBar from 'components/Base-Layout/Nav-Bar'
 import Header from 'components/Base-Layout/Header'
 import Footer from 'components/Base-Layout/Footer'
+import Product from 'components/Shop-Page/Product'
 // Internals
 import 'components/Shop-Page/index.css'
 import ImgCard1 from "assets/images/artem-beliaikin-pPzQP35zh4o-unsplash.jpg";
@@ -44,6 +45,7 @@ export default class index extends Component {
                         </div>
                     </div>
                 </div>
+                <Product />
                 <Footer />
             </div>
         )
