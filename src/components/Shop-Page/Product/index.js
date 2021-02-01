@@ -15,7 +15,7 @@ export default class index extends Component {
             <div className="product">
                {
                    products.map(product =>(
-                       <div className="card" key={product._id}>
+                       <div className="card-product" key={product._id}>
                            <NavLink to={`/selectProduct/${product._id}`}>
                                <img src={product.src} alt=""/>
                            </NavLink>
