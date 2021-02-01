@@ -12,7 +12,7 @@ export default class index extends Component {
     render() {
         const {products,addCart} = this.context;
         return (
-            <div className="product">
+            <div className="product mb-5">
                {
                    products.map(product =>(
                        <div className="card-product" key={product._id}>

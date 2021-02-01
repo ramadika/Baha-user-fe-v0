@@ -29,19 +29,25 @@ export default class index extends Component {
                 <div className="container shop">
                     <div className="row d-flex justify-content-center mt-3">
                         <div className="col">
-                            <Card>
-                                <CardImg variant="top" src={ImgCard1} />
-                            </Card>
+                            <NavLink to="/newArrival">
+                                <Card>
+                                    <CardImg variant="top" src={ImgCard1} />
+                                </Card>
+                            </NavLink>
                         </div>
                         <div className="col">
-                            <Card>
-                                <CardImg variant="top" src={ImgCard2} />
-                            </Card>
+                            <NavLink to="/sale">
+                                <Card>
+                                    <CardImg variant="top" src={ImgCard2} />
+                                </Card>
+                            </NavLink>
                         </div>
                         <div className="col">
-                            <Card>
-                                <CardImg variant="top" src={ImgCard3} />
-                            </Card>
+                            <NavLink to="/customYou">
+                                <Card>
+                                    <CardImg variant="top" src={ImgCard3} />
+                                </Card>
+                            </NavLink>
                         </div>
                     </div>
                 </div>
