@@ -1,0 +1,75 @@
+.bigCart {
+  background-image: 
+    linear-gradient(grey, grey),
+    url(/src/assets/images/bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: 50% 40%;
+  background-blend-mode: multiply;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 8%;
+  padding-top: 5%;
+}
+
+.cart {
+  /* margin-top: 20px; */
+  background-color: #ffffff;
+  padding: 40px;
+  width: fit-content;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 1px solid #ced4da;
+  font-family: "Kanit", sans-serif;
+  color: #343a40;
+}
+
+.cart h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: -10px;
+}
+
+.cart hr {
+  margin-bottom: 5%;
+}
+
+.cart .table {
+  font-family: "Raleway", sans-serif;
+}
+
+.cart button {
+  width: fit-content;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #e84118;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 3px solid #e84118;
+}
+
+.cart .aCheck {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #e84118;
+}
+
+.cart .aCheck:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #b63211;
+}
+
+.cart a {
+  color: #00a8ff;
+}
+
+.cart a:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #027dbb;
+}

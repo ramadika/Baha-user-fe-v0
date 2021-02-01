@@ -1,6 +1,6 @@
 // Dependencies
 import React from 'react'
-import { HiShoppingCart } from 'react-icons/hi'
+import { HiShoppingCart } from 'react-icons/hi' 
 import { NavLink } from 'react-router-dom'
 // Internals
 import 'components/Base-Layout/Header/index.css'
@@ -17,7 +17,7 @@ export default function index() {
                         <NavLink to="/"><h1 className="text-center">Arnawa</h1></NavLink>
                     </div>
                     <div className="col d-flex justify-content-end align-self-center">
-                        <NavLink to="/checkOut"><HiShoppingCart className="cart" size={30}></HiShoppingCart></NavLink>
+                        <NavLink to="/cart"><HiShoppingCart size={30}></HiShoppingCart></NavLink>
                     </div>
                 </div>
             </div>
