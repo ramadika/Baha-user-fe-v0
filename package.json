@@ -1,6 +1,6 @@
 {
   "homepage": "http://ramadika.github.io/Baha-User",
-  "name": "user",
+  "name": "baha-user",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
