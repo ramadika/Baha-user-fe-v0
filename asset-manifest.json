@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Baha-User/static/css/main.61da1b57.chunk.css",
-    "main.js": "/Baha-User/static/js/main.04b9c32b.chunk.js",
-    "main.js.map": "/Baha-User/static/js/main.04b9c32b.chunk.js.map",
-    "runtime-main.js": "/Baha-User/static/js/runtime-main.ad4aa5a8.js",
-    "runtime-main.js.map": "/Baha-User/static/js/runtime-main.ad4aa5a8.js.map",
+    "main.js": "/Baha-User/static/js/main.44d5a3d4.chunk.js",
+    "main.js.map": "/Baha-User/static/js/main.44d5a3d4.chunk.js.map",
+    "runtime-main.js": "/Baha-User/static/js/runtime-main.9c26ad8e.js",
+    "runtime-main.js.map": "/Baha-User/static/js/runtime-main.9c26ad8e.js.map",
     "static/css/2.658248ec.chunk.css": "/Baha-User/static/css/2.658248ec.chunk.css",
-    "static/js/2.a7ca1043.chunk.js": "/Baha-User/static/js/2.a7ca1043.chunk.js",
-    "static/js/2.a7ca1043.chunk.js.map": "/Baha-User/static/js/2.a7ca1043.chunk.js.map",
-    "static/js/3.1b6e3b70.chunk.js": "/Baha-User/static/js/3.1b6e3b70.chunk.js",
-    "static/js/3.1b6e3b70.chunk.js.map": "/Baha-User/static/js/3.1b6e3b70.chunk.js.map",
+    "static/js/2.a8c1cb94.chunk.js": "/Baha-User/static/js/2.a8c1cb94.chunk.js",
+    "static/js/2.a8c1cb94.chunk.js.map": "/Baha-User/static/js/2.a8c1cb94.chunk.js.map",
+    "static/js/3.04394d6d.chunk.js": "/Baha-User/static/js/3.04394d6d.chunk.js",
+    "static/js/3.04394d6d.chunk.js.map": "/Baha-User/static/js/3.04394d6d.chunk.js.map",
     "index.html": "/Baha-User/index.html",
     "static/css/2.658248ec.chunk.css.map": "/Baha-User/static/css/2.658248ec.chunk.css.map",
     "static/css/main.61da1b57.chunk.css.map": "/Baha-User/static/css/main.61da1b57.chunk.css.map",
-    "static/js/2.a7ca1043.chunk.js.LICENSE.txt": "/Baha-User/static/js/2.a7ca1043.chunk.js.LICENSE.txt",
+    "static/js/2.a8c1cb94.chunk.js.LICENSE.txt": "/Baha-User/static/js/2.a8c1cb94.chunk.js.LICENSE.txt",
     "static/media/artem-beliaikin-pPzQP35zh4o-unsplash.db6f9258.jpg": "/Baha-User/static/media/artem-beliaikin-pPzQP35zh4o-unsplash.db6f9258.jpg",
     "static/media/index.css": "/Baha-User/static/media/imelda-p-ER1gHMTYY-unsplash.225cc676.jpg",
     "static/media/brandon-erlinger-ford-2wSe9hhfpnM-unsplash.1b954e52.jpg": "/Baha-User/static/media/brandon-erlinger-ford-2wSe9hhfpnM-unsplash.1b954e52.jpg",
@@ -29,10 +29,10 @@
     "static/media/tarun-anand-giri-wXtszuirc64-unsplash.bc30de1f.jpg": "/Baha-User/static/media/tarun-anand-giri-wXtszuirc64-unsplash.bc30de1f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad4aa5a8.js",
+    "static/js/runtime-main.9c26ad8e.js",
     "static/css/2.658248ec.chunk.css",
-    "static/js/2.a7ca1043.chunk.js",
+    "static/js/2.a8c1cb94.chunk.js",
     "static/css/main.61da1b57.chunk.css",
-    "static/js/main.04b9c32b.chunk.js"
+    "static/js/main.44d5a3d4.chunk.js"
   ]
 }
