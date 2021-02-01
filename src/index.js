@@ -16,6 +16,9 @@ import Home from 'components/Home-Page'
 import About from 'components/About-Page'
 import Contact from 'components/Contact-Page'
 import Shop from 'components/Shop-Page'
+import Men from 'components/Shop-Page/Men'
+import Women from 'components/Shop-Page/Women'
+import Accessories from 'components/Shop-Page/Accessories'
 import Sale from 'components/Sale-Page'
 import NewArrival from 'components/NewArrival-Page'
 import Custom from 'components/Custom-Page'
@@ -43,6 +46,9 @@ ReactDOM.render(
         <Route path="/selectProduct/:id" component={SelectedProduct} />
         <Route path="/confirmation" component={Confirmation} />
         <Route path="/shop" component={Shop} />
+        <Route path="/men" component={Men} />
+        <Route path="/women" component={Women} />
+        <Route path="/accessories" component={Accessories} />
         <Route path="/sale" component={Sale} />
         <Route path="/shipping" component={Shipping}/>
         <Route path="/confirmed" component={Confirmed}/>
