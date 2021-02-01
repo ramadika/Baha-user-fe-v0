@@ -1,8 +1,44 @@
-.shop {
-  /* margin-top: 20px;
+.header-shop {
+  background-image: linear-gradient(grey, grey),
+    url(/src/assets/images/ashim-d-silva-ZmgJiztRHXE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-blend-mode: multiply;
+  margin-top: -15px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px; */
+  padding-top: 5%;
+  padding-bottom: 3%;
+  font-family: "Raleway", sans-serif;
+}
+
+.header-shop .header h1 {
+  color: #f5f6fa;
+}
+
+.header-shop .aCategory {
+  margin-left: 15px;
+  width: 10%;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 1px solid #ced4da;
+  padding: 10pt;
+  font-size: 12px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ced4da;
+}
+
+.header-shop .aCategory:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #a6adb4;
+}
+
+.shop {
   padding: 10px;
   font-family: "Raleway", sans-serif;
 }
