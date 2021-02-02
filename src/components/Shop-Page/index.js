@@ -2,16 +2,15 @@
 import React, { Component } from 'react'
 import { NavLink } from "react-router-dom";
 import Card from "react-bootstrap/Card";
-import CardImg from "react-bootstrap/CardImg";
 import NavBar from 'components/Base-Layout/Nav-Bar'
 import Header from 'components/Base-Layout/Header'
 import Footer from 'components/Base-Layout/Footer'
 import Product from 'components/Shop-Page/Product'
 // Internals
 import 'components/Shop-Page/index.css'
-import ImgCard1 from "assets/images/artem-beliaikin-pPzQP35zh4o-unsplash.jpg";
+import ImgCard1 from "assets/images/nimble-made-2yJFGX0tB-U-unsplash.jpg";
 import ImgCard2 from "assets/images/markus-spiske-5UJbKYUjFCk-unsplash.jpg";
-import ImgCard3 from "assets/images/markus-spiske-zVdAkU4s9lI-unsplash.jpg";
+import ImgCard3 from "assets/images/nikola-duza-TSh8D8KutWU-unsplash.jpg";
 
 export default class index extends Component {
     render() {
@@ -31,21 +30,30 @@ export default class index extends Component {
                         <div className="col">
                             <NavLink to="/newArrival">
                                 <Card>
-                                    <CardImg variant="top" src={ImgCard1} />
+                                    <Card.Img variant="top" src={ImgCard1} />
+                                    <Card.ImgOverlay>
+                                        <Card.Title>New Arrival</Card.Title>
+                                    </Card.ImgOverlay>
                                 </Card>
                             </NavLink>
                         </div>
                         <div className="col">
                             <NavLink to="/sale">
                                 <Card>
-                                    <CardImg variant="top" src={ImgCard2} />
+                                    <Card.Img variant="top" src={ImgCard2} />
+                                    <Card.ImgOverlay>
+                                        <Card.Title>Sale</Card.Title>
+                                    </Card.ImgOverlay>
                                 </Card>
                             </NavLink>
                         </div>
                         <div className="col">
                             <NavLink to="/customYou">
                                 <Card>
-                                    <CardImg variant="top" src={ImgCard3} />
+                                    <Card.Img variant="top" src={ImgCard3} />
+                                    <Card.ImgOverlay>
+                                        <Card.Title>Make Your Own Style</Card.Title>
+                                    </Card.ImgOverlay>
                                 </Card>
                             </NavLink>
                         </div>

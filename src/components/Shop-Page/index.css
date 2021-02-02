@@ -42,3 +42,15 @@
   padding: 10px;
   font-family: "Raleway", sans-serif;
 }
+
+.shop a {
+  color: #f5f6fa;
+}
+
+.shop a:hover {
+  color: #c8c9ca;
+}
+
+.shop .card-img-top {
+  filter: brightness(70%);
+}

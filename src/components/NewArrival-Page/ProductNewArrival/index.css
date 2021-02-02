@@ -1,0 +1,42 @@
+.body-newArrival h4 span {
+  display: block;
+  margin-top: 10px;
+}
+
+.body-newArrival .motto-newArrival {
+  font-size: 32pt;
+  font-weight: 600;
+  color: #343a40;
+}
+
+.body-newArrival .description-newArrival {
+  font-size: 11pt;
+  color: #343a40;
+  line-height: 24px;
+}
+
+.body-newArrival a {
+  margin-left: 15px;
+  width: fit-content;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 1px solid #343a40;
+  padding: 10pt;
+  font-size: 12px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #343a40;
+}
+
+.body-newArrival a:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #a6adb4;
+}
+
+.body-newArrival img {
+  margin-bottom: 30px;
+  width: 70%;
+}
