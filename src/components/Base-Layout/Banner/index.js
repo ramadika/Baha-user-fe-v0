@@ -4,9 +4,9 @@ import Carousel from "react-bootstrap/Carousel";
 import CarouselItem from "react-bootstrap/CarouselItem";
 // Internals
 import 'components/Base-Layout/Banner/index.css'
-import FirstSlider from "assets/images/freestocks-_3Q3tsJ01nc-unsplash.jpg";
-import SecondSlider from "assets/images/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg";
-import ThirdSlider from "assets/images/parker-burchfield-tvG4WvjgsEY-unsplash.jpg";
+import FirstSlider from "assets/images/mike-petrucci-c9FQyqIECds-unsplash.jpg";
+import SecondSlider from "assets/images/artem-beliaikin-pPzQP35zh4o-unsplash.jpg";
+import ThirdSlider from "assets/images/markus-spiske-5UJbKYUjFCk-unsplash.jpg";
 
 
 export default function index() {

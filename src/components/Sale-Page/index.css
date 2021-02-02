@@ -2,3 +2,23 @@
   padding: 10px;
   font-family: "Raleway", sans-serif;
 }
+
+.border-sale {
+  background-image: linear-gradient(grey, grey),
+    url(/src/assets/images/tamanna-rumee-hGLc8L-EcCM-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 40%;
+  background-blend-mode: multiply;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+  margin-bottom: 20px;
+}
+
+.border-sale h2 {
+  color: #f5f6fa;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+}
