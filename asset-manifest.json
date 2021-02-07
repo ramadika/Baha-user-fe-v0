@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Baha-User/static/css/main.541ea203.chunk.css",
-    "main.js": "/Baha-User/static/js/main.f1f48d26.chunk.js",
-    "main.js.map": "/Baha-User/static/js/main.f1f48d26.chunk.js.map",
-    "runtime-main.js": "/Baha-User/static/js/runtime-main.ca545251.js",
-    "runtime-main.js.map": "/Baha-User/static/js/runtime-main.ca545251.js.map",
+    "main.css": "/Baha-User/static/css/main.0eba549c.chunk.css",
+    "main.js": "/Baha-User/static/js/main.5ad96c66.chunk.js",
+    "main.js.map": "/Baha-User/static/js/main.5ad96c66.chunk.js.map",
+    "runtime-main.js": "/Baha-User/static/js/runtime-main.740001cd.js",
+    "runtime-main.js.map": "/Baha-User/static/js/runtime-main.740001cd.js.map",
     "static/css/2.658248ec.chunk.css": "/Baha-User/static/css/2.658248ec.chunk.css",
-    "static/js/2.9fc2e270.chunk.js": "/Baha-User/static/js/2.9fc2e270.chunk.js",
-    "static/js/2.9fc2e270.chunk.js.map": "/Baha-User/static/js/2.9fc2e270.chunk.js.map",
-    "static/js/3.37dc4585.chunk.js": "/Baha-User/static/js/3.37dc4585.chunk.js",
-    "static/js/3.37dc4585.chunk.js.map": "/Baha-User/static/js/3.37dc4585.chunk.js.map",
+    "static/js/2.2bd0bcf8.chunk.js": "/Baha-User/static/js/2.2bd0bcf8.chunk.js",
+    "static/js/2.2bd0bcf8.chunk.js.map": "/Baha-User/static/js/2.2bd0bcf8.chunk.js.map",
+    "static/js/3.10b5358e.chunk.js": "/Baha-User/static/js/3.10b5358e.chunk.js",
+    "static/js/3.10b5358e.chunk.js.map": "/Baha-User/static/js/3.10b5358e.chunk.js.map",
     "index.html": "/Baha-User/index.html",
     "static/css/2.658248ec.chunk.css.map": "/Baha-User/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.541ea203.chunk.css.map": "/Baha-User/static/css/main.541ea203.chunk.css.map",
-    "static/js/2.9fc2e270.chunk.js.LICENSE.txt": "/Baha-User/static/js/2.9fc2e270.chunk.js.LICENSE.txt",
+    "static/css/main.0eba549c.chunk.css.map": "/Baha-User/static/css/main.0eba549c.chunk.css.map",
+    "static/js/2.2bd0bcf8.chunk.js.LICENSE.txt": "/Baha-User/static/js/2.2bd0bcf8.chunk.js.LICENSE.txt",
+    "static/media/alp-duran-SwMgX1d0Kmw-unsplash_-removebg-preview.e3261631.png": "/Baha-User/static/media/alp-duran-SwMgX1d0Kmw-unsplash_-removebg-preview.e3261631.png",
     "static/media/artem-beliaikin-pPzQP35zh4o-unsplash.db6f9258.jpg": "/Baha-User/static/media/artem-beliaikin-pPzQP35zh4o-unsplash.db6f9258.jpg",
     "static/media/index.css": "/Baha-User/static/media/tamanna-rumee-hGLc8L-EcCM-unsplash.4d26cfb3.jpg",
     "static/media/brandon-erlinger-ford-2wSe9hhfpnM-unsplash-removebg-preview.dc1b4dda.png": "/Baha-User/static/media/brandon-erlinger-ford-2wSe9hhfpnM-unsplash-removebg-preview.dc1b4dda.png",
@@ -32,10 +33,10 @@
     "static/media/tarun-anand-giri-wXtszuirc64-unsplash.bc30de1f.jpg": "/Baha-User/static/media/tarun-anand-giri-wXtszuirc64-unsplash.bc30de1f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ca545251.js",
+    "static/js/runtime-main.740001cd.js",
     "static/css/2.658248ec.chunk.css",
-    "static/js/2.9fc2e270.chunk.js",
-    "static/css/main.541ea203.chunk.css",
-    "static/js/main.f1f48d26.chunk.js"
+    "static/js/2.2bd0bcf8.chunk.js",
+    "static/css/main.0eba549c.chunk.css",
+    "static/js/main.5ad96c66.chunk.js"
   ]
 }
