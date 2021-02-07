@@ -1,0 +1,41 @@
+.custom {
+  padding: 40px;
+  font-family: "Kanit", sans-serif;
+  color: #343a40;
+}
+
+.custom img {
+  margin-left: 100px;
+  width: 250px;
+}
+
+.custom h2 {
+  font-weight: 600;
+  background-image: linear-gradient(grey, grey),
+    url(/src/assets/images/jezael-melgoza-cv3T6MG36DE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-blend-mode: multiply;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+  margin-bottom: 20px;
+  color: #f5f6fa;
+}
+
+.custom hr {
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.custom .product-custom {
+  margin-top: 20px;
+  padding: 20px;
+  width: fit-content;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 1px solid #ced4da;
+}
