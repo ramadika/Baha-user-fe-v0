@@ -1,6 +1,5 @@
 .home {
-  background-image: 
-    linear-gradient(grey, black),
+  background-image: linear-gradient(grey, black),
     url(/src/assets/images/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
@@ -58,4 +57,33 @@
   text-decoration: none;
   color: #be3512;
   border: 3px solid #be3512;
+}
+
+@media (min-width: 300px) and (max-width: 568px) {
+  .home {
+    background-image: linear-gradient(grey, black),
+      url(/src/assets/images/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 520%;
+    background-position: 50% 40%;
+    background-blend-mode: multiply;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -39%;
+  }
+
+  .home h2{
+    margin-top: 70%;
+    font-size: 36pt;
+  }
+
+  .home h6{
+    font-size: 4pt;
+    margin-bottom: 35pt;
+  }
+
+  .home a{
+    font-size: 10pt;
+    margin-bottom: 78.6%;
+  }
 }
