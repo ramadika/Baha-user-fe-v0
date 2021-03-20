@@ -32,7 +32,7 @@ export default class index extends Component {
                                 <Card>
                                     <Card.Img variant="top" src={ImgCard1} />
                                     <Card.ImgOverlay>
-                                        <Card.Title>New Arrival</Card.Title>
+                                        <Card.Title className="title-shop">New Arrival</Card.Title>
                                     </Card.ImgOverlay>
                                 </Card>
                             </NavLink>
@@ -42,7 +42,7 @@ export default class index extends Component {
                                 <Card>
                                     <Card.Img variant="top" src={ImgCard2} />
                                     <Card.ImgOverlay>
-                                        <Card.Title>Sale</Card.Title>
+                                        <Card.Title className="title-shop">Sale</Card.Title>
                                     </Card.ImgOverlay>
                                 </Card>
                             </NavLink>

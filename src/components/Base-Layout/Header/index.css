@@ -17,6 +17,24 @@
   color: #343a40;
 }
 
+@media (min-width: 300px) and (max-width: 568px) {
+  .header a {
+    font-size: 6pt;
+    margin-left: 10px;
+  }
+
+  .header h1 {
+    font-size: 18pt;
+    /* padding-left: 13px; */
+  }
+
+  .icon-header {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+}
+
 /* .cart {
   fill: #000000;
 } */
