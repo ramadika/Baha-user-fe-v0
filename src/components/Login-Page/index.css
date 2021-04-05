@@ -80,3 +80,20 @@
   text-decoration: none;
   color: #027dbb;
 }
+
+@media (min-width: 300px) and (max-width: 568px) {
+  .login {
+    margin-top: 25%;
+    width: fit-content;
+  }
+
+  .login h4 {
+    font-size: 8pt;
+    margin-top: 10px !important;
+    margin-left: 0px !important;
+  }
+  
+  .login a {
+    font-size: 12px;
+  }
+}

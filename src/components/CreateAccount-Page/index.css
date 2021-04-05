@@ -83,3 +83,21 @@
   text-decoration: none;
   color: #027dbb;
 }
+
+@media (min-width: 300px) and (max-width: 568px) {
+  .signUp {
+    width: fit-content;
+  }
+
+  .form-signUp label {
+    font-size: 9pt;
+  }
+
+  .form-signUp button {
+    font-size: 12pt;
+  }
+
+  .signUp .aCreate {
+    font-size: 12px;
+  }
+}

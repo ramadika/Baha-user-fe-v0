@@ -66,7 +66,6 @@
 
 .teams h6 {
   font-family: "Raleway", sans-serif;
-  padding-left: 25px;
   color: #ced4da;
   font-size: 12pt;
 }
@@ -87,4 +86,33 @@
   margin-bottom: 40px;
   font-size: 12pt;
   color: #ced4da;
+}
+
+@media (min-width: 300px) and (max-width: 568px) {
+  .about {
+    background-image: linear-gradient(grey, grey),
+      url(/src/assets/images/clark-street-mercantile-P3pI6xzovu0-unsplash-cropped.jpg);
+    background-repeat: no-repeat;
+    background-size: 520%;
+    background-position: 50% 40%;
+    background-blend-mode: multiply;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 13%;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .about h2 {
+    margin-top: 10%;
+    font-size: 48px;
+  }
+
+  .about h5 {
+    margin-top: 5%;
+    font-size: 7pt;
+  }
+
+  .teams h4 {
+    font-size: 8pt;
+  }
 }

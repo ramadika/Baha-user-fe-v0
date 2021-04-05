@@ -73,3 +73,26 @@ select.form-control {
   background-blend-mode: multiply;
   padding-bottom: 13%;
 }
+
+@media (min-width: 300px) and (max-width: 568px) {
+  .confirm h2 {
+    font-size: 14pt;
+  }
+
+  .form-confirm label {
+    font-size: 10pt;
+  }
+
+  .form-confirm .form-control {
+    font-size: 10pt;
+  }
+
+  .form-confirm button {
+    font-size: 12pt;
+  }
+
+  .confirm .aPayment {
+    font-size: 12px;
+  }
+  
+}
