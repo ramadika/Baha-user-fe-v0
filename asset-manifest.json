@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Baha-User/static/css/main.ba057a24.chunk.css",
+    "main.css": "/Baha-User/static/css/main.9a88ad04.chunk.css",
     "main.js": "/Baha-User/static/js/main.ff2dd4d9.chunk.js",
     "main.js.map": "/Baha-User/static/js/main.ff2dd4d9.chunk.js.map",
     "runtime-main.js": "/Baha-User/static/js/runtime-main.740001cd.js",
@@ -12,7 +12,7 @@
     "static/js/3.10b5358e.chunk.js.map": "/Baha-User/static/js/3.10b5358e.chunk.js.map",
     "index.html": "/Baha-User/index.html",
     "static/css/2.658248ec.chunk.css.map": "/Baha-User/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.ba057a24.chunk.css.map": "/Baha-User/static/css/main.ba057a24.chunk.css.map",
+    "static/css/main.9a88ad04.chunk.css.map": "/Baha-User/static/css/main.9a88ad04.chunk.css.map",
     "static/js/2.083394e2.chunk.js.LICENSE.txt": "/Baha-User/static/js/2.083394e2.chunk.js.LICENSE.txt",
     "static/media/alp-duran-SwMgX1d0Kmw-unsplash_-removebg-preview.e3261631.png": "/Baha-User/static/media/alp-duran-SwMgX1d0Kmw-unsplash_-removebg-preview.e3261631.png",
     "static/media/artem-beliaikin-pPzQP35zh4o-unsplash.db6f9258.jpg": "/Baha-User/static/media/artem-beliaikin-pPzQP35zh4o-unsplash.db6f9258.jpg",
@@ -36,7 +36,7 @@
     "static/js/runtime-main.740001cd.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.083394e2.chunk.js",
-    "static/css/main.ba057a24.chunk.css",
+    "static/css/main.9a88ad04.chunk.css",
     "static/js/main.ff2dd4d9.chunk.js"
   ]
 }
