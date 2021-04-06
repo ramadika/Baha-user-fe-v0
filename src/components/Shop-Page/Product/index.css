@@ -32,6 +32,7 @@
 .product .card-product h3 {
   text-transform: uppercase;
   margin: 10px 0;
+  font-size: 12pt;
 }
 
 .product .card-product h3 a {
@@ -49,6 +50,7 @@
 
 .product .card-product p {
   margin: 10px 0;
+  font-size: 8pt;
 }
 
 .product .card-product button {

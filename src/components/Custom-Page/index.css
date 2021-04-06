@@ -5,7 +5,7 @@
 }
 
 .custom img {
-  margin-left: 100px;
+  /* margin-left: 100px; */
   width: 250px;
 }
 
@@ -38,4 +38,20 @@
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   border: 1px solid #ced4da;
+}
+
+@media (min-width: 300px) and (max-width: 568px) {
+  .custom img {
+    width: 150px;
+    height: auto;
+  }
+
+  .custom h2 {
+    font-size: 12pt;
+  }
+
+  .custom .product-custom {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

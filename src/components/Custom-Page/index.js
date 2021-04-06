@@ -13,14 +13,16 @@ export default class index extends Component {
             <div>
                 <NavBar />
                 <div className="container d-flex justify-content-center custom">
-                    <div className="col align-self-center">
-                        <img src={ImgCard1} alt="imgFitting"></img>
-                    </div>
-                    <div className="col text-center product-custom">
-                        <h6>Arnawa</h6>
-                        <h2>Make Your Own Style</h2>
-                        <hr />
-                        <ProductCustom />
+                    <div className="row">
+                        <div className="col align-self-center">
+                            <img src={ImgCard1} alt="imgFitting"></img>
+                        </div>
+                        <div className="col text-center product-custom">
+                            <h6>Arnawa</h6>
+                            <h2>Make Your Own Style</h2>
+                            <hr />
+                            <ProductCustom />
+                        </div>
                     </div>
                 </div>
                 <Footer />

@@ -69,3 +69,17 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (min-width: 300px) and (max-width: 568px) {
+  .productCustom .card-productCustom h3 {
+    font-size: 10pt;
+  }
+
+  .productCustom .card-productCustom button {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 7pt;
+    height: 32px;
+    letter-spacing: 0px;
+  }
+}
