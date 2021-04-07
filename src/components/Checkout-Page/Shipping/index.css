@@ -60,3 +60,17 @@
   text-decoration: none;
   color: #b63211;
 }
+
+@media (min-width: 300px) and (max-width: 568px) {
+  .shipping {
+    width: fit-content;
+  }
+
+  .shipping h6 {
+    font-size: 8pt;
+  }
+
+  .form-shipping label {
+    font-size: 9pt;
+  }
+}

@@ -15,27 +15,27 @@ export default class index extends Component {
                     <hr />
                     <form className="form-shipping mt-2">
                         <div className="form-group row">
-                            <label className="col">Name</label>
+                            <label className="col align-self-center">Name</label>
                             <input type="text" value="" id="address" className= "col form-control text-center"></input>
                         </div>
                         <div className="form-group row">
-                            <label className="col">Province</label>
+                            <label className="col align-self-center">Province</label>
                             <input type="text" value="" id="address" className= "col form-control text-center"></input>
                         </div>
                         <div className="form-group row">
-                            <label className="col">City</label>
+                            <label className="col align-self-center">City</label>
                             <input type="text" value="" id="address" className= "col form-control text-center"></input>
                         </div>
                         <div className="form-group row">
-                            <label className="col">Address</label>
+                            <label className="col align-self-center">Address</label>
                             <input type="text" value="" id="address" className= "col form-control text-center"></input>
                         </div>
                         <div className="form-group row">
-                            <label className="col">ZIP Code</label>
+                            <label className="col align-self-center">ZIP Code</label>
                             <input type="text" value="" id="address" className= "col form-control text-center"></input>
                         </div>
                         <div className="form-group row">
-                            <label className="col">Phone Number</label>
+                            <label className="col align-self-center">Phone Number</label>
                             <input type="text" value="" id="phoneNumber" className= "col form-control text-center"></input>
                         </div>
                         <div className="d-flex justify-content-center">

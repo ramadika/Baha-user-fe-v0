@@ -54,3 +54,14 @@
   text-decoration: none;
   color: #027dbb;
 }
+
+@media (min-width: 300px) and (max-width: 568px) {
+  .confirmed {
+    width: fit-content;
+    padding-bottom: 25px;
+  }
+
+  .confirmed .message-confirmed {
+    font-size: 8pt;
+  }
+}

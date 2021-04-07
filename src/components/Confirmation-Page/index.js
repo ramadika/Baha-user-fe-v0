@@ -18,26 +18,26 @@ export default class index extends Component {
                     <div className="row d-flex justify-content-center">
                         <form className="form-confirm mt-2">
                             <div className="form-group row">
-                                <label className="col">Order No</label>
+                                <label className="col align-self-center">Order No</label>
                                 <input type="text" value="" id="orderNo" className= "col form-control text-center"></input>
                             </div>
                             <div className="form-group row">
-                                <label className="col">Email</label>
+                                <label className="col align-self-center">Email</label>
                                 <input type="email" value="" id="email" className= "col form-control text-center"></input>
                             </div>
                             <div className="form-group row">
-                                <label className="col">Destination Bank</label>
+                                <label className="col align-self-center">Destination Bank</label>
                                 <input type="text" value="" id="name" className= "col form-control text-center"></input>
                             </div>
                             <div className="form-group row">
-                                <label className="col">Payment Amount</label>
+                                <label className="col align-self-center">Payment Amount</label>
                                 <select className="form-control">
                                     <option selected value="bca">Bank BCA</option>
                                     <option value="mandiri">Bank Mandiri</option>
                                 </select>
                             </div>
                             <div className="form-group row">
-                                <label className="col">Upload File</label>
+                                <label className="col align-self-center">Upload File</label>
                                 <input type="file" value="" id="uploadConfrim" className="col"></input>
                             </div>
                             {/* <button type="submit" className="btn">Confirm Payment</button> */}

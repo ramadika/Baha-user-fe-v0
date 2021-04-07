@@ -1,6 +1,5 @@
 .bigCart {
-  background-image: 
-    linear-gradient(grey, grey),
+  background-image: linear-gradient(grey, grey),
     url(/src/assets/images/bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
@@ -29,6 +28,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin-top: 10px;
   margin-bottom: -10px;
 }
 
@@ -72,4 +72,44 @@
   transition: 0.3s;
   text-decoration: none;
   color: #027dbb;
+}
+
+@media (min-width: 300px) and (max-width: 568px) {
+  .bigCart {
+    background-image: linear-gradient(grey, grey),
+      url(/src/assets/images/bruno-kelzer-LvySG1hvuzI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: 50% 40%;
+    background-blend-mode: multiply;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8%;
+    padding-top: 8%;
+  }
+
+  .cart {
+    padding: 10px;
+  }
+
+  .cart h2 {
+    font-size: 12pt;
+  }
+
+  .cart .table {
+    font-size: 8pt;
+  }
+
+  .cart button {
+    font-size: 12pt;
+  }
+
+  .cart .aCheck {
+    font-size: 10pt;
+  }
+
+  .cart a {
+    font-size: 8pt;
+  }
 }
