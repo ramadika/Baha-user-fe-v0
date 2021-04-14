@@ -23,7 +23,7 @@ export default class index extends Component {
                         <div className="col">
                             <div className="row">
                                 <div className="col">
-                                    <h5>Shipping Address</h5>
+                                    <h5 className="ship-checkout">Shipping Address</h5>
                                 </div>
                                 <div className="col d-flex justify-content-end">
                                     <NavLink to="/shipping">Edit</NavLink>
@@ -33,8 +33,10 @@ export default class index extends Component {
                             <h6 className="ml-3">Sacramento, CA 942032</h6>
                             <hr />
                             <h5>Payment Method</h5>
-                            <input type="radio" value="option1" checked={true} className="ml-3"/>
-                            <label className="rdCheck-custom ml-3">Tranfer Bank</label>
+                            <form className=" d-flex justify-content-start">
+                                <input type="radio" value="option1" checked={true} className="mt-1 ml-3"/>
+                                <label className="align-self-center ml-3">Tranfer Bank</label>
+                            </form>
                             <h6 className="ml-3">a.n Samsons Jackson</h6>
                             <h6 className="ml-3">BANK FIRST INCOME</h6>
                             <h6 className="ml-3">100 456 8932</h6>

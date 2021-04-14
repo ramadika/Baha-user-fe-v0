@@ -1,3 +1,18 @@
 .review {
   font-family: "Raleway", sans-serif;
 }
+
+.review td {
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 300px) and (max-width: 568px) {
+  .review th img {
+    width: 50px;
+    height: auto;
+  }
+
+  .review td {
+    font-size: 8pt;
+  }
+}

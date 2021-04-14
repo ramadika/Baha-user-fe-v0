@@ -5,12 +5,13 @@
 
 .checkout h6 {
   color: #ced4da;
+  font-family: "Poppins", sans-serif;
 }
 
 .checkout h2 {
   margin-bottom: -10px;
 }
- 
+
 .checkout a {
   color: #00a8ff;
 }
@@ -21,5 +22,31 @@
   color: #027dbb;
 }
 
-/* @media (min-width: 300px) and (max-width: 568px) {
-} */
+@media (min-width: 300px) and (max-width: 568px) {
+  .checkout h5 {
+    font-size: 9pt;
+  }
+
+  .checkout a {
+    font-size: 8pt;
+  }
+
+  .checkout h6,
+  .checkout label {
+    font-size: 6pt;
+  }
+
+  .checkout h6 {
+    margin-bottom: 2px;
+  }
+
+  .checkout input[type="radio"] {
+    margin-top: 0px !important;
+    margin-right: -10px !important;
+  }
+
+  .checkout img {
+    width: 150px;
+    height: auto;
+  }
+}
