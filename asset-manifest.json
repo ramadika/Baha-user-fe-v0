@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Baha-user-fe-v0/static/css/main.dee2c8bc.chunk.css",
-    "main.js": "/Baha-user-fe-v0/static/js/main.abdd76ab.chunk.js",
-    "main.js.map": "/Baha-user-fe-v0/static/js/main.abdd76ab.chunk.js.map",
-    "runtime-main.js": "/Baha-user-fe-v0/static/js/runtime-main.99bc26df.js",
-    "runtime-main.js.map": "/Baha-user-fe-v0/static/js/runtime-main.99bc26df.js.map",
+    "main.js": "/Baha-user-fe-v0/static/js/main.985bd892.chunk.js",
+    "main.js.map": "/Baha-user-fe-v0/static/js/main.985bd892.chunk.js.map",
+    "runtime-main.js": "/Baha-user-fe-v0/static/js/runtime-main.16cfcdf9.js",
+    "runtime-main.js.map": "/Baha-user-fe-v0/static/js/runtime-main.16cfcdf9.js.map",
     "static/css/2.658248ec.chunk.css": "/Baha-user-fe-v0/static/css/2.658248ec.chunk.css",
-    "static/js/2.188fa5b3.chunk.js": "/Baha-user-fe-v0/static/js/2.188fa5b3.chunk.js",
-    "static/js/2.188fa5b3.chunk.js.map": "/Baha-user-fe-v0/static/js/2.188fa5b3.chunk.js.map",
-    "static/js/3.3dfd6eb7.chunk.js": "/Baha-user-fe-v0/static/js/3.3dfd6eb7.chunk.js",
-    "static/js/3.3dfd6eb7.chunk.js.map": "/Baha-user-fe-v0/static/js/3.3dfd6eb7.chunk.js.map",
+    "static/js/2.083394e2.chunk.js": "/Baha-user-fe-v0/static/js/2.083394e2.chunk.js",
+    "static/js/2.083394e2.chunk.js.map": "/Baha-user-fe-v0/static/js/2.083394e2.chunk.js.map",
+    "static/js/3.10b5358e.chunk.js": "/Baha-user-fe-v0/static/js/3.10b5358e.chunk.js",
+    "static/js/3.10b5358e.chunk.js.map": "/Baha-user-fe-v0/static/js/3.10b5358e.chunk.js.map",
     "index.html": "/Baha-user-fe-v0/index.html",
     "static/css/2.658248ec.chunk.css.map": "/Baha-user-fe-v0/static/css/2.658248ec.chunk.css.map",
     "static/css/main.dee2c8bc.chunk.css.map": "/Baha-user-fe-v0/static/css/main.dee2c8bc.chunk.css.map",
-    "static/js/2.188fa5b3.chunk.js.LICENSE.txt": "/Baha-user-fe-v0/static/js/2.188fa5b3.chunk.js.LICENSE.txt",
+    "static/js/2.083394e2.chunk.js.LICENSE.txt": "/Baha-user-fe-v0/static/js/2.083394e2.chunk.js.LICENSE.txt",
     "static/media/alp-duran-SwMgX1d0Kmw-unsplash_-removebg-preview.e3261631.png": "/Baha-user-fe-v0/static/media/alp-duran-SwMgX1d0Kmw-unsplash_-removebg-preview.e3261631.png",
     "static/media/artem-beliaikin-pPzQP35zh4o-unsplash.db6f9258.jpg": "/Baha-user-fe-v0/static/media/artem-beliaikin-pPzQP35zh4o-unsplash.db6f9258.jpg",
     "static/media/index.css": "/Baha-user-fe-v0/static/media/tamanna-rumee-hGLc8L-EcCM-unsplash.4d26cfb3.jpg",
@@ -33,10 +33,10 @@
     "static/media/tarun-anand-giri-wXtszuirc64-unsplash.bc30de1f.jpg": "/Baha-user-fe-v0/static/media/tarun-anand-giri-wXtszuirc64-unsplash.bc30de1f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.99bc26df.js",
+    "static/js/runtime-main.16cfcdf9.js",
     "static/css/2.658248ec.chunk.css",
-    "static/js/2.188fa5b3.chunk.js",
+    "static/js/2.083394e2.chunk.js",
     "static/css/main.dee2c8bc.chunk.css",
-    "static/js/main.abdd76ab.chunk.js"
+    "static/js/main.985bd892.chunk.js"
   ]
 }
